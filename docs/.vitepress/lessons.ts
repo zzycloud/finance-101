@@ -116,7 +116,7 @@ export const lessons: Lesson[] = [
     },
     en: {
       title: 'Index Funds', subtitle: 'Why Owning the Whole Market Is Hard to Beat',
-      quote: '“Don’t look for the needle in the haystack. Just buy the haystack.” (John Bogle)',
+      quote: 'Don’t look for the needle in the haystack. Just buy the haystack. (John Bogle)',
       outline: ['What an index is: S&P 500, total market, international', 'Market-cap weighting', 'Why most active funds lag', 'The long-run cost of fees', 'Common index funds'],
     },
   },
