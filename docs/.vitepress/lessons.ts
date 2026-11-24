@@ -45,25 +45,25 @@ export const lessons: Lesson[] = [
     id: 'l01', stage: 'basics', ready: true, minutes: 12, level: 1,
     zh: {
       title: '为什么要投资', subtitle: '复利与通胀',
-      quote: '钱放着不动，也会慢慢变少；让钱去工作，时间会替你放大它。',
+      quote: '不投资的钱会被通胀侵蚀；投资的钱靠复利增长，时间越长越明显。',
       outline: ['通胀如何悄悄吃掉存款', '复利：利滚利的威力', '72 法则：心算翻倍时间', '越早开始差距越大'],
     },
     en: {
       title: 'Why Invest', subtitle: 'Compounding and Inflation',
-      quote: 'Idle money slowly shrinks. Money put to work grows, and time does the heavy lifting.',
+      quote: 'Idle money loses purchasing power to inflation. Invested money grows by compounding, and time matters most.',
       outline: ['How inflation quietly eats savings', 'Compounding: growth on top of growth', 'The Rule of 72', 'Why starting early matters so much'],
     },
   },
   {
     id: 'l02', stage: 'basics', ready: true, minutes: 14, level: 1,
     zh: {
-      title: '风险与收益', subtitle: '天下没有免费的午餐',
-      quote: '想要更高的收益，就得承受更大的波动。关键是：这份波动你扛不扛得住。',
+      title: '风险与收益', subtitle: '波动、损失与分散',
+      quote: '预期收益越高，波动通常越大。先确认自己能承受多大的下跌。',
       outline: ['风险到底是什么：波动与永久亏损', '风险收益阶梯', '历史上的大跌', '分散投资：唯一的“免费午餐”', '投资期限与风险'],
     },
     en: {
-      title: 'Risk and Return', subtitle: 'There Is No Free Lunch',
-      quote: 'Higher expected returns come with bigger swings. The real question is whether you can sit through them.',
+      title: 'Risk and Return', subtitle: 'Volatility, Loss and Diversification',
+      quote: 'Higher expected returns usually come with bigger swings. Know how large a drop you can live with.',
       outline: ['What risk really means: volatility vs. permanent loss', 'The risk-return ladder', 'Big crashes in history', 'Diversification: the only free lunch', 'Time horizon and risk'],
     },
   },
@@ -71,12 +71,12 @@ export const lessons: Lesson[] = [
     id: 'l03', stage: 'basics', ready: true, minutes: 12, level: 1,
     zh: {
       title: '投资前的准备', subtitle: '应急金、债务与目标',
-      quote: '先把地基打牢，再盖楼。没有应急金的投资，一次意外就可能让你割肉离场。',
+      quote: '没有应急金，一次意外开支就可能逼你在下跌时卖出投资。',
       outline: ['理财的先后顺序', '应急金：放多少、放哪里', '先还高息债', '给每笔钱定一个目标和期限'],
     },
     en: {
       title: 'Before You Invest', subtitle: 'Emergency Fund, Debt and Goals',
-      quote: 'Lay the foundation before you build. Without an emergency fund, one surprise can force you to sell at the worst time.',
+      quote: 'Without an emergency fund, one unexpected bill can force you to sell during a downturn.',
       outline: ['The order of operations', 'Emergency fund: how much and where', 'Pay off high-interest debt first', 'Give every dollar a goal and a deadline'],
     },
   },
@@ -98,12 +98,12 @@ export const lessons: Lesson[] = [
     id: 'l05', stage: 'funds', ready: true, minutes: 14, level: 1,
     zh: {
       title: '基金是什么', subtitle: '共同基金、ETF 与指数基金',
-      quote: '基金就是一个大篮子：很多人凑钱，一次买下几百只股票。',
+      quote: '基金把很多人的钱集中起来，一次买入几百只股票或债券。',
       outline: ['基金的基本原理', '净值（NAV）', '共同基金 vs ETF', '主动基金 vs 被动（指数）基金', '费用率'],
     },
     en: {
       title: 'What Is a Fund', subtitle: 'Mutual Funds, ETFs and Index Funds',
-      quote: 'A fund is a big basket: many people pool money and buy hundreds of stocks at once.',
+      quote: 'A fund pools many people’s money to buy hundreds of stocks or bonds at once.',
       outline: ['How funds work', 'Net asset value (NAV)', 'Mutual funds vs. ETFs', 'Active vs. passive (index) funds', 'Expense ratios'],
     },
   },
@@ -111,12 +111,12 @@ export const lessons: Lesson[] = [
     id: 'l06', stage: 'funds', ready: true, minutes: 15, level: 2,
     zh: {
       title: '指数基金', subtitle: '为什么“买下整个市场”很难被打败',
-      quote: '与其在草堆里找针，不如把整个草堆买下来。',
+      quote: '别在草堆里找针，把整个草堆买下来。（约翰·博格）',
       outline: ['什么是指数：S&P 500、全市场、国际', '市值加权', '主动基金为什么大多跑输', '费用的长期影响', '常见的指数基金'],
     },
     en: {
       title: 'Index Funds', subtitle: 'Why Owning the Whole Market Is Hard to Beat',
-      quote: "Don't look for the needle in the haystack. Just buy the haystack.",
+      quote: '“Don’t look for the needle in the haystack. Just buy the haystack.” (John Bogle)',
       outline: ['What an index is: S&P 500, total market, international', 'Market-cap weighting', 'Why most active funds lag', 'The long-run cost of fees', 'Common index funds'],
     },
   },
@@ -124,12 +124,12 @@ export const lessons: Lesson[] = [
     id: 'l07', stage: 'funds', ready: true, minutes: 15, level: 2,
     zh: {
       title: '怎么挑一只 ETF', subtitle: '读懂产品说明的五个要点',
-      quote: '名字很像的两只 ETF，里面装的东西可能完全不同。',
+      quote: '名字相似的两只 ETF，持仓可能完全不同。',
       outline: ['它跟踪什么指数', '费用率', '规模与成交量', '买卖价差', '避开杠杆和反向 ETF'],
     },
     en: {
       title: 'How to Pick an ETF', subtitle: 'Five Things to Check on a Fact Sheet',
-      quote: 'Two ETFs with similar names can hold completely different things.',
+      quote: 'Two ETFs with similar names can hold very different things.',
       outline: ['What index it tracks', 'Expense ratio', 'Size and trading volume', 'Bid-ask spread', 'Steer clear of leveraged and inverse ETFs'],
     },
   },
@@ -137,20 +137,20 @@ export const lessons: Lesson[] = [
     id: 'l08', stage: 'funds', ready: true, minutes: 16, level: 2,
     zh: {
       title: '资产配置、定投与再平衡', subtitle: '把基金组合成一个计划',
-      quote: '决定你长期收益的，主要不是买了哪只股票，而是股票和债券各占多少。',
+      quote: '组合的涨跌幅度，主要取决于股票和债券各占多少。',
       outline: ['资产配置：股债比例', '三基金组合与目标日期基金', '定投（DCA）与一次性投入', '再平衡'],
     },
     en: {
       title: 'Allocation, DCA and Rebalancing', subtitle: 'Turning Funds into a Plan',
-      quote: 'Your long-run result depends less on which stock you pick and more on your mix of stocks and bonds.',
+      quote: 'How much a portfolio swings depends mainly on its mix of stocks and bonds.',
       outline: ['Asset allocation: the stock/bond mix', 'Three-fund portfolios and target-date funds', 'Dollar-cost averaging vs. lump sum', 'Rebalancing'],
     },
   },
   // ---------- Stocks ----------
   {
     id: 'l09', stage: 'stocks', ready: false, minutes: 14, level: 2,
-    zh: { title: '股票是什么', subtitle: '成为一家公司的小股东', quote: '买股票，是买下一家公司的一小块，而不是买一个会跳动的数字。', outline: ['股份与所有权', '公司为什么上市', '股价为什么会涨跌', '普通股与优先股'] },
-    en: { title: 'What Is a Stock', subtitle: 'Owning a Slice of a Company', quote: 'A share is a small piece of a real business, not just a number that wiggles.', outline: ['Shares and ownership', 'Why companies go public', 'Why prices move', 'Common vs. preferred stock'] },
+    zh: { title: '股票是什么', subtitle: '成为一家公司的小股东', quote: '一股股票代表一家公司的一小部分所有权。', outline: ['股份与所有权', '公司为什么上市', '股价为什么会涨跌', '普通股与优先股'] },
+    en: { title: 'What Is a Stock', subtitle: 'Owning a Slice of a Company', quote: 'A share is a small piece of ownership in a company.', outline: ['Shares and ownership', 'Why companies go public', 'Why prices move', 'Common vs. preferred stock'] },
   },
   {
     id: 'l10', stage: 'stocks', ready: false, minutes: 15, level: 2,
@@ -169,8 +169,8 @@ export const lessons: Lesson[] = [
   },
   {
     id: 'l13', stage: 'stocks', ready: false, minutes: 12, level: 2,
-    zh: { title: '分红、回购与拆股', subtitle: '公司怎样把钱还给股东', quote: '拆股不会让你变富，分红也不是白送的钱。', outline: ['现金分红与除息日', '股票回购', '拆股与合股', '分红再投资（DRIP）'] },
-    en: { title: 'Dividends, Buybacks and Splits', subtitle: 'How Companies Return Cash', quote: "A split doesn't make you richer, and a dividend isn't free money.", outline: ['Cash dividends and ex-dividend dates', 'Share buybacks', 'Splits and reverse splits', 'Dividend reinvestment (DRIP)'] },
+    zh: { title: '分红、回购与拆股', subtitle: '公司怎样把钱还给股东', quote: '拆股不改变你持有的价值；分红发出后，股价会相应下调。', outline: ['现金分红与除息日', '股票回购', '拆股与合股', '分红再投资（DRIP）'] },
+    en: { title: 'Dividends, Buybacks and Splits', subtitle: 'How Companies Return Cash', quote: "A split doesn’t change what you own, and the share price drops by about the dividend when it’s paid out.", outline: ['Cash dividends and ex-dividend dates', 'Share buybacks', 'Splits and reverse splits', 'Dividend reinvestment (DRIP)'] },
   },
   // ---------- Bonds ----------
   {
@@ -180,8 +180,8 @@ export const lessons: Lesson[] = [
   },
   {
     id: 'l15', stage: 'bonds', ready: false, minutes: 16, level: 3,
-    zh: { title: '利率与收益率曲线', subtitle: '为什么加息时债券会跌', quote: '利率和债券价格像跷跷板：一头升，另一头就降。', outline: ['利率与债价的反向关系', '久期', '收益率曲线与倒挂', 'T-Bill、TIPS 与 I Bond'] },
-    en: { title: 'Rates and the Yield Curve', subtitle: 'Why Bonds Fall When Rates Rise', quote: 'Rates and bond prices sit on a seesaw.', outline: ['Why prices move opposite to rates', 'Duration', 'The yield curve and inversions', 'T-Bills, TIPS and I Bonds'] },
+    zh: { title: '利率与收益率曲线', subtitle: '为什么加息时债券会跌', quote: '利率上升，已发行债券的价格下跌；利率下降，价格上涨。', outline: ['利率与债价的反向关系', '久期', '收益率曲线与倒挂', 'T-Bill、TIPS 与 I Bond'] },
+    en: { title: 'Rates and the Yield Curve', subtitle: 'Why Bonds Fall When Rates Rise', quote: 'When rates rise, existing bond prices fall, and vice versa.', outline: ['Why prices move opposite to rates', 'Duration', 'The yield curve and inversions', 'T-Bills, TIPS and I Bonds'] },
   },
   // ---------- Options ----------
   {
@@ -191,13 +191,13 @@ export const lessons: Lesson[] = [
   },
   {
     id: 'l17', stage: 'options', ready: false, minutes: 20, level: 4,
-    zh: { title: '期权定价与希腊字母', subtitle: '时间价值与波动率', quote: '期权的价格里，藏着市场对未来波动的猜测。', outline: ['内在价值与时间价值', '隐含波动率', 'Delta、Gamma、Theta、Vega', '时间损耗'] },
-    en: { title: 'Option Pricing and the Greeks', subtitle: 'Time Value and Volatility', quote: "An option's price contains the market's guess about future swings.", outline: ['Intrinsic vs. time value', 'Implied volatility', 'Delta, Gamma, Theta, Vega', 'Time decay'] },
+    zh: { title: '期权定价与希腊字母', subtitle: '时间价值与波动率', quote: '期权价格反映了市场对未来波动的预期。', outline: ['内在价值与时间价值', '隐含波动率', 'Delta、Gamma、Theta、Vega', '时间损耗'] },
+    en: { title: 'Option Pricing and the Greeks', subtitle: 'Time Value and Volatility', quote: "An option's price reflects the market's expectation of future volatility.", outline: ['Intrinsic vs. time value', 'Implied volatility', 'Delta, Gamma, Theta, Vega', 'Time decay'] },
   },
   {
     id: 'l18', stage: 'options', ready: false, minutes: 18, level: 4,
-    zh: { title: '常见策略与风险', subtitle: '备兑看涨、保护性看跌及其陷阱', quote: '大多数买期权的新手，亏掉的是时间。', outline: ['备兑看涨（Covered Call）', '保护性看跌（Protective Put）', '价差策略', '为什么新手容易亏'] },
-    en: { title: 'Common Strategies and Risks', subtitle: 'Covered Calls, Protective Puts and Traps', quote: 'Most beginners who buy options lose to the clock.', outline: ['Covered calls', 'Protective puts', 'Spreads', 'Why beginners often lose'] },
+    zh: { title: '常见策略与风险', subtitle: '备兑看涨、保护性看跌及其陷阱', quote: '买入期权后，即使股价不动，期权的时间价值也会随到期临近而减少。', outline: ['备兑看涨（Covered Call）', '保护性看跌（Protective Put）', '价差策略', '为什么新手容易亏'] },
+    en: { title: 'Common Strategies and Risks', subtitle: 'Covered Calls, Protective Puts and Traps', quote: 'A bought option loses time value as expiration approaches, even if the stock doesn’t move.', outline: ['Covered calls', 'Protective puts', 'Spreads', 'Why beginners often lose'] },
   },
   // ---------- Futures ----------
   {
@@ -207,24 +207,24 @@ export const lessons: Lesson[] = [
   },
   {
     id: 'l20', stage: 'futures', ready: false, minutes: 18, level: 5,
-    zh: { title: '保证金与杠杆', subtitle: '合约规格与爆仓风险', quote: '杠杆放大的不只是收益，还有亏损，而且亏损会先到。', outline: ['保证金与每日结算', '杠杆是怎么放大的', '追加保证金', '读懂合约规格（以 CME 为例）'] },
-    en: { title: 'Margin and Leverage', subtitle: 'Contract Specs and Liquidation Risk', quote: 'Leverage magnifies losses as well as gains, and the losses tend to arrive first.', outline: ['Margin and daily settlement', 'How leverage magnifies', 'Margin calls', 'Reading contract specs (CME examples)'] },
+    zh: { title: '保证金与杠杆', subtitle: '合约规格与强制平仓风险', quote: '杠杆同样放大亏损，亏损可能超过你投入的保证金。', outline: ['保证金与每日结算', '杠杆是怎么放大的', '追加保证金', '读懂合约规格（以 CME 为例）'] },
+    en: { title: 'Margin and Leverage', subtitle: 'Contract Specs and Liquidation Risk', quote: 'Leverage magnifies losses too, and losses can exceed the margin you put up.', outline: ['Margin and daily settlement', 'How leverage magnifies', 'Margin calls', 'Reading contract specs (CME examples)'] },
   },
   // ---------- Mindset ----------
   {
     id: 'l21', stage: 'mindset', ready: false, minutes: 18, level: 3,
-    zh: { title: '美国投资税务入门', subtitle: '资本利得、股息与亏损抵税', quote: '你赚多少不重要，税后留下多少才重要。', outline: ['短期与长期资本利得', '合格股息', '亏损抵税与洗售规则', '1099 表格'] },
-    en: { title: 'US Investment Taxes 101', subtitle: 'Capital Gains, Dividends and Losses', quote: "It's not what you make, it's what you keep after taxes.", outline: ['Short- vs. long-term capital gains', 'Qualified dividends', 'Tax-loss harvesting and wash sales', 'Form 1099'] },
+    zh: { title: '美国投资税务入门', subtitle: '资本利得、股息与亏损抵税', quote: '比较收益时，要看税后留下多少。', outline: ['短期与长期资本利得', '合格股息', '亏损抵税与洗售规则', '1099 表格'] },
+    en: { title: 'US Investment Taxes 101', subtitle: 'Capital Gains, Dividends and Losses', quote: 'Compare returns after taxes.', outline: ['Short- vs. long-term capital gains', 'Qualified dividends', 'Tax-loss harvesting and wash sales', 'Form 1099'] },
   },
   {
     id: 'l22', stage: 'mindset', ready: false, minutes: 15, level: 2,
-    zh: { title: '行为偏差与风险管理', subtitle: '最大的敌人是自己', quote: '市场下跌时卖出、上涨时追高，是普通投资者最常见的亏钱方式。', outline: ['损失厌恶与追涨杀跌', '过度自信与频繁交易', '择时为什么难', '识别骗局'] },
-    en: { title: 'Behavior and Risk Management', subtitle: 'Your Biggest Opponent Is You', quote: 'Selling in panics and buying in manias is how most investors lose money.', outline: ['Loss aversion and chasing', 'Overconfidence and overtrading', 'Why market timing is hard', 'Spotting scams'] },
+    zh: { title: '行为偏差与风险管理', subtitle: '常见的决策错误', quote: '下跌时恐慌卖出、上涨时追高买入，会让实际收益低于所持基金的收益。', outline: ['损失厌恶与追涨杀跌', '过度自信与频繁交易', '择时为什么难', '识别骗局'] },
+    en: { title: 'Behavior and Risk Management', subtitle: 'Common Decision Mistakes', quote: 'Selling in panics and buying after big rallies can leave you with less than the funds you own.', outline: ['Loss aversion and chasing', 'Overconfidence and overtrading', 'Why market timing is hard', 'Spotting scams'] },
   },
   {
     id: 'l23', stage: 'mindset', ready: false, minutes: 15, level: 2,
-    zh: { title: '写下你的投资计划', subtitle: '一页纸的投资政策书', quote: '提前写好的计划，是你在恐慌时最好的朋友。', outline: ['目标、期限与风险承受力', '资产配置与再平衡规则', '什么情况下改计划', '模板与示例'] },
-    en: { title: 'Write Your Investment Plan', subtitle: 'A One-Page Investment Policy Statement', quote: 'A plan written in calm times is your best friend in a panic.', outline: ['Goals, horizon and risk tolerance', 'Allocation and rebalancing rules', 'When to change the plan', 'Template and example'] },
+    zh: { title: '写下你的投资计划', subtitle: '一页纸的投资政策书', quote: '市场平稳时写好计划，下跌时照计划执行。', outline: ['目标、期限与风险承受力', '资产配置与再平衡规则', '什么情况下改计划', '模板与示例'] },
+    en: { title: 'Write Your Investment Plan', subtitle: 'A One-Page Investment Policy Statement', quote: 'Write the plan when markets are calm; follow it when they aren’t.', outline: ['Goals, horizon and risk tolerance', 'Allocation and rebalancing rules', 'When to change the plan', 'Template and example'] },
   },
 ]
 
