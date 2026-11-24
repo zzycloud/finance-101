@@ -40,6 +40,9 @@ A lot of personal-finance content is either too technical, full of jargon, or to
 - SIPC
 - Bureau of Labor Statistics: CPI data
 - S&P Dow Jones Indices: SPIVA reports
+- Federal Reserve G.19 consumer credit release (credit card rates)
+- Yardeni Research: S&P 500 bear market statistics
+- Fund issuers' websites (expense ratios)
 - Vanguard research
 
 ## Contributing

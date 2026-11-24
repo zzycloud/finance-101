@@ -40,6 +40,9 @@ next: false
 - 证券投资者保护公司 SIPC
 - 美国劳工统计局 BLS：CPI 数据
 - 标普道琼斯指数 SPIVA 报告
+- 美联储 G.19 消费信贷统计（信用卡利率）
+- Yardeni Research 的 S&P 500 熊市统计
+- 基金发行公司官网（费用率）
 - Vanguard 研究报告
 
 ## 参与贡献
