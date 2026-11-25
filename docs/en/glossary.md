@@ -104,3 +104,50 @@ Common terms, grouped by topic. When you hit a word you don't know, look it up h
 - **Buyback**: a company repurchases, and usually retires, its own shares.
 - **Stock split / reverse split**: dividing each share into several, or combining several into one; total value is unchanged.
 - **Dividend reinvestment (DRIP)**: dividends automatically buy more of the same stock or fund.
+
+## Bonds
+
+- **Bond**: the issuer borrows from you, pays interest on schedule and repays principal at maturity. See [Lesson 14](/en/l14).
+- **Face value / coupon / maturity**: principal repaid at maturity; annual interest as a percent of face value; the repayment date.
+- **Yield to maturity (YTM)**: the annual return counting both interest and any gain or loss at maturity.
+- **Treasuries**: US federal government debt: T-Bills, T-Notes and T-Bonds; interest is exempt from state and local income tax.
+- **Municipal bonds**: debt of states and local governments; interest is usually exempt from federal income tax.
+- **Investment grade / high-yield**: BBB- (S&P, Fitch) or Baa3 (Moody's) and above is investment grade; below is high-yield, or junk.
+- **Duration**: a bond's price sensitivity to rates; price change ≈ −duration × rate change. See [Lesson 15](/en/l15).
+- **Yield curve / inversion**: Treasury yields plotted by maturity; inverted when short-term yields are above long-term yields.
+- **TIPS**: Treasuries whose principal adjusts with CPI.
+- **I Bond**: a savings bond paying a fixed rate plus an inflation rate, sold only at TreasuryDirect.
+
+## Options
+
+- **Call / put**: the right to buy / sell the underlying at the strike. See [Lesson 16](/en/l16).
+- **Strike / premium**: the agreed trade price; the price the buyer pays the seller. One US stock option contract usually covers 100 shares.
+- **In / at / out of the money**: classified by where the stock is relative to the strike.
+- **Assignment**: an option seller being required to perform.
+- **Intrinsic / time value**: what the option is worth if it expired now; the rest of its price. See [Lesson 17](/en/l17).
+- **Implied volatility (IV)**: expected volatility backed out of option prices.
+- **Delta / gamma / theta / vega**: sensitivity of the option price to the stock, of delta to the stock, of the price to time and of the price to implied volatility.
+- **Covered call**: owning shares and selling a call against them. See [Lesson 18](/en/l18).
+- **Protective put**: owning shares and buying a put.
+- **Spread**: buying and selling options of the same type to cap gains and losses.
+
+## Futures
+
+- **Futures**: standardized contracts to trade an asset later at a price set today; both sides are obligated. See [Lesson 19](/en/l19).
+- **Hedging**: using futures to offset a price risk you already have.
+- **Physical delivery / cash settlement**: goods change hands at expiration, or the difference is paid in cash.
+- **Roll**: selling an expiring contract and buying the next month's.
+- **Margin**: in futures, a performance deposit; in a stock margin account, borrowing to buy securities. See [Lesson 20](/en/l20).
+- **Mark to market**: settling gains and losses daily at the closing price.
+- **Margin call**: a demand to add money when an account falls below maintenance margin; otherwise positions may be closed.
+
+## Taxes and behavior
+
+- **Capital gain**: sale price minus cost basis; long-term if held more than one year, short-term otherwise. See [Lesson 21](/en/l21).
+- **Qualified dividends**: dividends taxed at long-term capital gains rates, subject to a holding period.
+- **Wash sale**: buying a substantially identical security within 30 days before or after a loss sale; the loss can't be deducted that year.
+- **Form 1099**: tax forms brokers send each year, including 1099-B, 1099-DIV and 1099-INT.
+- **W-8BEN**: the form non-US residents give their broker to certify status and claim treaty benefits.
+- **Loss aversion**: losses hurt more than equal gains feel good. See [Lesson 22](/en/l22).
+- **Anchoring**: using an irrelevant number, such as your purchase price, as a reference point.
+- **Investment Policy Statement (IPS)**: a written plan of goals, allocation and rules. See [Lesson 23](/en/l23).

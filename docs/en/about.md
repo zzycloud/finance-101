@@ -47,6 +47,15 @@ A lot of personal-finance content is either too technical, full of jargon, or to
 - Yardeni Research: S&P 500 bear market statistics
 - Fund issuers' websites (expense ratios)
 - Vanguard research
+- IRS: Rev. Proc. 2025-32 (2026 tax tables), Topic 409, Publication 550, nonresident withholding rules and tax treaty tables
+- Investor.gov: interest rate risk, credit ratings, options basics, opening an options account, margin accounts, wash sales
+- US Treasury, TreasuryDirect: I bond rules
+- Federal Reserve Bank of San Francisco: the yield curve and recessions (2022)
+- CME Group: E-mini and Micro E-mini S&P 500 contract specs
+- CFTC: futures basics and the 2020 negative WTI price
+- US Energy Information Administration (EIA): WTI futures prices in April 2020
+- Bloomberg bond index returns for 2022 (as reported by Fortune and A Wealth of Common Sense)
+- Morningstar, Mind the Gap 2026
 
 ## Contributing
 

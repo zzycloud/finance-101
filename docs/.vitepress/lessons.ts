@@ -201,28 +201,28 @@ export const lessons: Lesson[] = [
   },
   // ---------- Futures ----------
   {
-    id: 'l19', stage: 'futures', ready: false, minutes: 16, level: 4,
+    id: 'l19', stage: 'futures', ready: true, minutes: 16, level: 4,
     zh: { title: '期货入门', subtitle: '约定未来的价格', quote: '期货最早是农民和面粉厂用来锁定价格的工具。', outline: ['期货合约是什么', '套期保值与投机', '交割与展期', '常见品种：股指、原油、黄金'] },
     en: { title: 'Futures Basics', subtitle: 'Agreeing on a Future Price', quote: 'Futures began as a way for farmers and millers to lock in prices.', outline: ['What a futures contract is', 'Hedging vs. speculation', 'Delivery and rolling', 'Common markets: equity index, oil, gold'] },
   },
   {
-    id: 'l20', stage: 'futures', ready: false, minutes: 18, level: 5,
+    id: 'l20', stage: 'futures', ready: true, minutes: 18, level: 5,
     zh: { title: '保证金与杠杆', subtitle: '合约规格与强制平仓风险', quote: '杠杆同样放大亏损，亏损可能超过你投入的保证金。', outline: ['保证金与每日结算', '杠杆是怎么放大的', '追加保证金', '读懂合约规格（以 CME 为例）'] },
     en: { title: 'Margin and Leverage', subtitle: 'Contract Specs and Liquidation Risk', quote: 'Leverage magnifies losses too, and losses can exceed the margin you put up.', outline: ['Margin and daily settlement', 'How leverage magnifies', 'Margin calls', 'Reading contract specs (CME examples)'] },
   },
   // ---------- Mindset ----------
   {
-    id: 'l21', stage: 'mindset', ready: false, minutes: 18, level: 3,
+    id: 'l21', stage: 'mindset', ready: true, minutes: 18, level: 3,
     zh: { title: '美国投资税务入门', subtitle: '资本利得、股息与亏损抵税', quote: '比较收益时，要看税后留下多少。', outline: ['短期与长期资本利得', '合格股息', '亏损抵税与洗售规则', '1099 表格'] },
     en: { title: 'US Investment Taxes 101', subtitle: 'Capital Gains, Dividends and Losses', quote: 'Compare returns after taxes.', outline: ['Short- vs. long-term capital gains', 'Qualified dividends', 'Tax-loss harvesting and wash sales', 'Form 1099'] },
   },
   {
-    id: 'l22', stage: 'mindset', ready: false, minutes: 15, level: 2,
+    id: 'l22', stage: 'mindset', ready: true, minutes: 15, level: 2,
     zh: { title: '行为偏差与风险管理', subtitle: '常见的决策错误', quote: '下跌时恐慌卖出、上涨时追高买入，会让实际收益低于所持基金的收益。', outline: ['损失厌恶与追涨杀跌', '过度自信与频繁交易', '择时为什么难', '识别骗局'] },
     en: { title: 'Behavior and Risk Management', subtitle: 'Common Decision Mistakes', quote: 'Selling in panics and buying after big rallies can leave you with less than the funds you own.', outline: ['Loss aversion and chasing', 'Overconfidence and overtrading', 'Why market timing is hard', 'Spotting scams'] },
   },
   {
-    id: 'l23', stage: 'mindset', ready: false, minutes: 15, level: 2,
+    id: 'l23', stage: 'mindset', ready: true, minutes: 15, level: 2,
     zh: { title: '写下你的投资计划', subtitle: '一页纸的投资政策书', quote: '市场平稳时写好计划，下跌时照计划执行。', outline: ['目标、期限与风险承受力', '资产配置与再平衡规则', '什么情况下改计划', '模板与示例'] },
     en: { title: 'Write Your Investment Plan', subtitle: 'A One-Page Investment Policy Statement', quote: 'Write the plan when markets are calm; follow it when they aren’t.', outline: ['Goals, horizon and risk tolerance', 'Allocation and rebalancing rules', 'When to change the plan', 'Template and example'] },
   },

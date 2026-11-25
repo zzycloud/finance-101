@@ -47,6 +47,15 @@ next: false
 - Yardeni Research 的 S&P 500 熊市统计
 - 基金发行公司官网（费用率）
 - Vanguard 研究报告
+- 美国国税局 IRS：Rev. Proc. 2025-32（2026 年税率表）、Topic 409、Publication 550、非居民预扣税规则与税收协定表
+- Investor.gov：利率风险、信用评级、期权入门、开通期权账户、保证金账户、洗售
+- 美国财政部 TreasuryDirect：I Bond 规则
+- 旧金山联储：收益率曲线与经济衰退（2022）
+- 芝加哥商品交易所 CME Group：E-mini 与 Micro E-mini S&P 500 合约规格
+- 美国商品期货交易委员会 CFTC：期货基础知识、2020 年 WTI 原油负价
+- 美国能源信息署 EIA：2020 年 4 月 WTI 期货价格
+- Bloomberg 债券指数 2022 年回报（经 Fortune、A Wealth of Common Sense 报道）
+- Morningstar《Mind the Gap 2026》
 
 ## 参与贡献
 
