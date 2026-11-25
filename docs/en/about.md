@@ -35,7 +35,10 @@ A lot of personal-finance content is either too technical, full of jargon, or to
 ## Main sources
 
 - IRS: retirement account limits and rules
-- SEC's investor education site, Investor.gov
+- SEC's investor education site, Investor.gov (order types, T+1 settlement, circuit breakers)
+- Company filings with the SEC (EDGAR)
+- IRS: stock repurchase excise tax
+- PwC SEC financial reporting guide (10-K and 10-Q deadlines)
 - FINRA
 - SIPC
 - Bureau of Labor Statistics: CPI data

@@ -82,3 +82,25 @@ Common terms, grouped by topic. When you hit a word you don't know, look it up h
 - **Dollar-cost averaging (DCA)**: investing a fixed amount on a regular schedule.
 - **Lump-sum investing**: investing a whole sum at once.
 - **Rebalancing**: bringing a portfolio back to its target mix.
+
+## Stocks
+
+- **Stock / share**: a unit of ownership in a company. See [Lesson 9](/en/l09).
+- **IPO (initial public offering)**: a company's first sale of shares to the public and listing on an exchange.
+- **Common / preferred stock**: common stock votes and has variable dividends; preferred usually has a fixed dividend and no vote.
+- **Stop order**: becomes a market order once the stop price is reached. The stop price is not a guaranteed price. See [Lesson 10](/en/l10).
+- **Stop-limit order**: becomes a limit order once the stop price is reached; the fill price has a floor, but it may not fill.
+- **T+1 settlement**: trades settle one business day after the trade date. US stocks since May 28, 2024.
+- **Market-wide circuit breaker**: a market-wide trading halt triggered when the S&P 500 falls 7%, 13% or 20% in a day.
+- **Income statement / balance sheet / cash flow statement**: the three core financial statements. See [Lesson 11](/en/l11).
+- **Earnings per share (EPS)**: net income ÷ shares outstanding.
+- **Free cash flow**: operating cash flow minus capital expenditure.
+- **10-K / 10-Q / 8-K**: annual, quarterly and major-event reports filed with the SEC, free on EDGAR.
+- **Price-to-earnings (P/E)**: share price ÷ EPS. See [Lesson 12](/en/l12).
+- **Price-to-book (P/B) / price-to-sales (P/S)**: price ÷ book value per share; market cap ÷ annual revenue.
+- **Dividend yield**: annual dividend per share ÷ share price.
+- **Payout ratio**: dividends ÷ net income.
+- **Ex-dividend date**: buy on or after this day and you don't get this dividend. See [Lesson 13](/en/l13).
+- **Buyback**: a company repurchases, and usually retires, its own shares.
+- **Stock split / reverse split**: dividing each share into several, or combining several into one; total value is unchanged.
+- **Dividend reinvestment (DRIP)**: dividends automatically buy more of the same stock or fund.

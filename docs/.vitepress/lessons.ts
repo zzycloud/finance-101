@@ -148,27 +148,27 @@ export const lessons: Lesson[] = [
   },
   // ---------- Stocks ----------
   {
-    id: 'l09', stage: 'stocks', ready: false, minutes: 14, level: 2,
+    id: 'l09', stage: 'stocks', ready: true, minutes: 14, level: 2,
     zh: { title: '股票是什么', subtitle: '成为一家公司的小股东', quote: '一股股票代表一家公司的一小部分所有权。', outline: ['股份与所有权', '公司为什么上市', '股价为什么会涨跌', '普通股与优先股'] },
     en: { title: 'What Is a Stock', subtitle: 'Owning a Slice of a Company', quote: 'A share is a small piece of ownership in a company.', outline: ['Shares and ownership', 'Why companies go public', 'Why prices move', 'Common vs. preferred stock'] },
   },
   {
-    id: 'l10', stage: 'stocks', ready: false, minutes: 15, level: 2,
+    id: 'l10', stage: 'stocks', ready: true, minutes: 15, level: 2,
     zh: { title: '股市怎么运转', subtitle: '交易所、下单与交易时间', quote: '每一笔成交，都有一个买家和一个卖家。', outline: ['NYSE 与 Nasdaq', '买价、卖价与价差', '市价单、限价单、止损单', '盘前盘后与结算（T+1）'] },
     en: { title: 'How the Market Works', subtitle: 'Exchanges, Orders and Trading Hours', quote: 'Every trade has a buyer and a seller.', outline: ['NYSE and Nasdaq', 'Bid, ask and spread', 'Market, limit and stop orders', 'Extended hours and settlement (T+1)'] },
   },
   {
-    id: 'l11', stage: 'stocks', ready: false, minutes: 18, level: 3,
+    id: 'l11', stage: 'stocks', ready: true, minutes: 18, level: 3,
     zh: { title: '读懂财报', subtitle: '三张表看懂一家公司', quote: '利润表告诉你赚了多少，现金流量表告诉你钱是不是真的进了口袋。', outline: ['利润表', '资产负债表', '现金流量表', '10-K 与 10-Q 去哪找'] },
     en: { title: 'Reading Financial Statements', subtitle: 'Three Statements, One Company', quote: 'The income statement says what was earned; the cash flow statement says whether the cash showed up.', outline: ['Income statement', 'Balance sheet', 'Cash flow statement', 'Where to find 10-Ks and 10-Qs'] },
   },
   {
-    id: 'l12', stage: 'stocks', ready: false, minutes: 16, level: 3,
+    id: 'l12', stage: 'stocks', ready: true, minutes: 16, level: 3,
     zh: { title: '估值入门', subtitle: '好公司不等于好价格', quote: '再好的公司，买贵了也可能是一笔差投资。', outline: ['市盈率（P/E）', '市净率与市销率', '股息率', '估值的局限'] },
     en: { title: 'Valuation Basics', subtitle: 'A Great Company Is Not Always a Great Price', quote: 'Even a wonderful company can be a poor investment if you overpay.', outline: ['Price-to-earnings (P/E)', 'Price-to-book and price-to-sales', 'Dividend yield', 'Limits of valuation'] },
   },
   {
-    id: 'l13', stage: 'stocks', ready: false, minutes: 12, level: 2,
+    id: 'l13', stage: 'stocks', ready: true, minutes: 12, level: 2,
     zh: { title: '分红、回购与拆股', subtitle: '公司怎样把钱还给股东', quote: '拆股不改变你持有的价值；分红发出后，股价会相应下调。', outline: ['现金分红与除息日', '股票回购', '拆股与合股', '分红再投资（DRIP）'] },
     en: { title: 'Dividends, Buybacks and Splits', subtitle: 'How Companies Return Cash', quote: "A split doesn’t change what you own, and the share price drops by about the dividend when it’s paid out.", outline: ['Cash dividends and ex-dividend dates', 'Share buybacks', 'Splits and reverse splits', 'Dividend reinvestment (DRIP)'] },
   },

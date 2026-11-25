@@ -35,7 +35,10 @@ next: false
 ## 主要参考来源
 
 - 美国国税局 IRS：退休账户额度与规则
-- 美国证监会 SEC 的投资者教育网站 Investor.gov
+- 美国证监会 SEC 的投资者教育网站 Investor.gov（订单类型、T+1 结算、熔断）
+- 上市公司提交给 SEC 的报告（EDGAR）
+- 美国国税局 IRS：股票回购消费税
+- PwC SEC 财务报告指南（10-K、10-Q 提交期限）
 - 美国金融业监管局 FINRA
 - 证券投资者保护公司 SIPC
 - 美国劳工统计局 BLS：CPI 数据
