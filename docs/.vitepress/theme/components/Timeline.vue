@@ -13,7 +13,7 @@ const readyCount = lessons.filter((l) => l.ready).length
 const t = {
   zh: {
     title: '学习路线',
-    sub: `从零开始的美股理财课：${lessons.length} 课，由浅入深。目前已上线 ${readyCount} 课。`,
+    sub: `从零开始的美股理财课：${lessons.length} 课，由浅入深。${readyCount === lessons.length ? '' : `目前已上线 ${readyCount} 课。`}`,
     legend: '阶段',
     min: '分钟',
     level: '难度',
@@ -24,7 +24,7 @@ const t = {
   },
   en: {
     title: 'Learning Path',
-    sub: `A from-zero course on investing in US markets: ${lessons.length} lessons, gentle to advanced. ${readyCount} are live so far.`,
+    sub: `A from-zero course on investing in US markets: ${lessons.length} lessons, gentle to advanced. ${readyCount === lessons.length ? '' : `${readyCount} are live so far.`}`,
     legend: 'Stages',
     min: 'min',
     level: 'Level',
