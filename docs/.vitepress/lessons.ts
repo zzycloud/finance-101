@@ -174,28 +174,28 @@ export const lessons: Lesson[] = [
   },
   // ---------- Bonds ----------
   {
-    id: 'l14', stage: 'bonds', ready: false, minutes: 15, level: 2,
+    id: 'l14', stage: 'bonds', ready: true, minutes: 15, level: 2,
     zh: { title: '债券入门', subtitle: '把钱借出去，按时收利息', quote: '买债券，就是当债主。', outline: ['面值、票息与到期日', '国债、市政债、公司债', '信用评级', '债券基金'] },
     en: { title: 'Bond Basics', subtitle: 'Lend Money, Collect Interest', quote: 'Buying a bond makes you the lender.', outline: ['Face value, coupon and maturity', 'Treasuries, munis and corporates', 'Credit ratings', 'Bond funds'] },
   },
   {
-    id: 'l15', stage: 'bonds', ready: false, minutes: 16, level: 3,
+    id: 'l15', stage: 'bonds', ready: true, minutes: 16, level: 3,
     zh: { title: '利率与收益率曲线', subtitle: '为什么加息时债券会跌', quote: '利率上升，已发行债券的价格下跌；利率下降，价格上涨。', outline: ['利率与债价的反向关系', '久期', '收益率曲线与倒挂', 'T-Bill、TIPS 与 I Bond'] },
     en: { title: 'Rates and the Yield Curve', subtitle: 'Why Bonds Fall When Rates Rise', quote: 'When rates rise, existing bond prices fall, and vice versa.', outline: ['Why prices move opposite to rates', 'Duration', 'The yield curve and inversions', 'T-Bills, TIPS and I Bonds'] },
   },
   // ---------- Options ----------
   {
-    id: 'l16', stage: 'options', ready: false, minutes: 18, level: 3,
+    id: 'l16', stage: 'options', ready: true, minutes: 18, level: 3,
     zh: { title: '期权是什么', subtitle: '看涨期权与看跌期权', quote: '期权是一种权利，不是义务；但卖出期权的人，承担的就是义务。', outline: ['看涨（Call）与看跌（Put）', '行权价、到期日与权利金', '买方与卖方', '一份合约 = 100 股'] },
     en: { title: 'What Is an Option', subtitle: 'Calls and Puts', quote: 'An option buyer has a right, not an obligation. The seller has the obligation.', outline: ['Calls and puts', 'Strike, expiration and premium', 'Buyers vs. sellers', 'One contract = 100 shares'] },
   },
   {
-    id: 'l17', stage: 'options', ready: false, minutes: 20, level: 4,
+    id: 'l17', stage: 'options', ready: true, minutes: 20, level: 4,
     zh: { title: '期权定价与希腊字母', subtitle: '时间价值与波动率', quote: '期权价格反映了市场对未来波动的预期。', outline: ['内在价值与时间价值', '隐含波动率', 'Delta、Gamma、Theta、Vega', '时间损耗'] },
     en: { title: 'Option Pricing and the Greeks', subtitle: 'Time Value and Volatility', quote: "An option's price reflects the market's expectation of future volatility.", outline: ['Intrinsic vs. time value', 'Implied volatility', 'Delta, Gamma, Theta, Vega', 'Time decay'] },
   },
   {
-    id: 'l18', stage: 'options', ready: false, minutes: 18, level: 4,
+    id: 'l18', stage: 'options', ready: true, minutes: 18, level: 4,
     zh: { title: '常见策略与风险', subtitle: '备兑看涨、保护性看跌及其陷阱', quote: '买入期权后，即使股价不动，期权的时间价值也会随到期临近而减少。', outline: ['备兑看涨（Covered Call）', '保护性看跌（Protective Put）', '价差策略', '为什么新手容易亏'] },
     en: { title: 'Common Strategies and Risks', subtitle: 'Covered Calls, Protective Puts and Traps', quote: 'A bought option loses time value as expiration approaches, even if the stock doesn’t move.', outline: ['Covered calls', 'Protective puts', 'Spreads', 'Why beginners often lose'] },
   },
